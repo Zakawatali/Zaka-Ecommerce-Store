@@ -194,12 +194,12 @@ const About = () => {
       >
         {cards.map((card) => (
           <SwiperSlide key={card.id}>
-            <div className="bg-white w-80 h-full">
+            <div className="bg-white w-50 sm:w-80 h-full">
               <div className="bg-gray-100">
                 <img
                   src={card.image}
                   alt={card.title}
-                  className="w-full py-2 h-80 object-contain rounded-lg"
+                  className="w-full py-2 h-60 sm:h-80 object-contain rounded-lg"
                 />
               </div>
               <h2 className="text-2xl text-gray-700 p-3 font-semibold">{card.title}</h2>
