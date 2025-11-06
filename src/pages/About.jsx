@@ -171,7 +171,7 @@ const About = () => {
     </div>
     
       {/* Slider Container */}
-      <div className="py-4 mx-16 ">
+      <div className=" mx-5 py-1 sm:mx-10 sm:py-2 md:py-4 md:mx-16 ">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={30}
