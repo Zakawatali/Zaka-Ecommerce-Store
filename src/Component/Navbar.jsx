@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="" >
       {/* 🔸 Top black banner */}
-      <div className="bg-black  h-12 flex justify-between items-center text-white px-6 md:px-14">
+      <div className="bg-black  h-14 flex justify-between items-center text-white px-6 md:px-14">
         <div className="flex items-center">
           <X className="h-5 w-5" />
           <p className="ml-2 text-sm">
