@@ -1,5 +1,6 @@
 
-import pic1 from "../../public/MobilepicLogin.png"; 
+
+import pic1 from "../assets/MobilepicLogin.png";
 import { Link } from "react-router-dom";
 
 const LoginPage = () => {

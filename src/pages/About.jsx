@@ -1,17 +1,17 @@
 
 
 // import pic2 from "../../public/aboutPic.png"; 
-import pic from "../../public/aboutpic.jpg";
-import pic2 from "../../public/Icon-Shop.png";
-import pic3 from "../../public/Icon-Sale.png";
-import pic4 from "../../public/Icon-Shopping-bag.png";
-import pic5 from "../../public/Icon-Moneybag.png";
-import pic6 from "../../public/icon-delivery.png";
-import pic7 from "../../public/Icon-Customer-service.png";
-import pic8 from "../../public/Icon-secure.png";
-import Sliderimg1 from "../../public/Sliderimg1.png";
-import Sliderimg2 from "../../public/Slideimg2.png";
-import Sliderimg3 from "../../public/Sliderimg3.png";
+import pic from "../assets/aboutpic.jpg";
+import pic2 from "../assets/Icon-Shop.png";
+import pic3 from "../assets/Icon-Sale.png";
+import pic4 from "../assets/Icon-Shopping-bag.png";
+import pic5 from "../assets/Icon-Moneybag.png";
+import pic6 from "../assets/icon-delivery.png";
+import pic7 from "../assets/Icon-Customer-service.png";
+import pic8 from "../assets/Icon-secure.png";
+import Sliderimg1 from "../assets/Sliderimg1.png";
+import Sliderimg2 from "../assets/Slideimg2.png";
+import Sliderimg3 from "../assets/Sliderimg3.png";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';

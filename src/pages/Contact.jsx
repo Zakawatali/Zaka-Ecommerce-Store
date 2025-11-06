@@ -1,8 +1,8 @@
 import Breadcrumbs from "@mui/material/Breadcrumbs";
 import { Link } from "react-router-dom";
 import Typography from "@mui/material/Typography";
-import iconphone from "../../public/icons-phone.png";
-import iconemail from "../../public/icons-mail.png";
+import iconphone from "../assets/icons-phone.png";
+import iconemail from "../assets/icons-mail.png";
 const Contact = () => {
   return (
     <div className="" >   
