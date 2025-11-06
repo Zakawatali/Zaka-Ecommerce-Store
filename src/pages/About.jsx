@@ -171,7 +171,7 @@ const About = () => {
     </div>
     
       {/* Slider Container */}
-      <div className=" mx-5 py-1 sm:mx-10 sm:py-2 md:py-4 md:mx-16 ">
+      <div className=" py-4 ml-10 md:ml-20 ">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={30}
@@ -190,7 +190,7 @@ const About = () => {
     640: { slidesPerView: 2 },
     1024: { slidesPerView: 3 },
   }}
-        className="mySwiper   "
+        className="mySwiper  "
       >
         {cards.map((card) => (
           <SwiperSlide key={card.id}>

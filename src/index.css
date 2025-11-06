@@ -1,6 +1,9 @@
 @import "tailwindcss";
 .mySwiper {
   padding-bottom: 3rem !important;
+
+  
+  
 }
 
 html, body, #root {
