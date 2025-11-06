@@ -171,7 +171,7 @@ const About = () => {
     </div>
     
       {/* Slider Container */}
-      <div className=" py-4 ml-15 md:ml-20 ">
+      <div className=" py-4 mx-16 ">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={30}
@@ -194,7 +194,7 @@ const About = () => {
       >
         {cards.map((card) => (
           <SwiperSlide key={card.id}>
-            <div className="bg-white w-50 sm:w-80 h-full">
+            <div className="bg-white w-50 ml-5 sm:w-80 h-full">
               <div className="bg-gray-100">
                 <img
                   src={card.image}
