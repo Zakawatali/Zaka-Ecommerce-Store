@@ -1,6 +1,6 @@
 
  
-import pic1 from "../assets/MobilepicLogin.png";
+import pic1 from "../assets/MobilepiclogIn.png";
 import { Link } from "react-router-dom";
 import { Search } from "lucide-react";
 const SignUp = () => {
