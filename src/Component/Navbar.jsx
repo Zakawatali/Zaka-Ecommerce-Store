@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="" >
       {/* 🔸 Top black banner */}
-      <div className="bg-black  h-14 flex justify-between items-center text-white px-6 md:px-14">
+      <div className="bg-black h-16  sm:h-13 flex justify-between items-center text-white px-6 md:px-14">
         <div className="flex items-center">
           <X className="h-5 w-5" />
           <p className="ml-2 text-sm">
@@ -19,7 +19,7 @@ const Navbar = () => {
       </div>
 
       {/* 🔸 Main Navbar */}
-      <nav className="flex items-center justify-between bg-white border-b border-gray-100 shadow-md py-3 px-6 md:px-14">
+      <nav className="flex items-center h-18 justify-between bg-white border-b border-gray-300 shadow-sm py-3 px-6 md:px-14">
         
         {/* ✅ Hamburger icon (mobile only, left side) */}
         <div className="flex items-center gap-3">
