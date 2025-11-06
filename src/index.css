@@ -2,3 +2,9 @@
 .mySwiper {
   padding-bottom: 3rem !important;
 }
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
