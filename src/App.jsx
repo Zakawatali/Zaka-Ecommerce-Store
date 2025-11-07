@@ -8,6 +8,7 @@ import Navbar from './Component/Navbar.jsx';
 import Footer from './Component/Footer.jsx';
 import LoginPage from './pages/LogInPage.jsx';
 import SignUp from './pages/SignUp.jsx';
+import MyAccount from './pages/MyAccount.jsx';
 
 
 function App() {
@@ -18,12 +19,13 @@ function App() {
     
       <Navbar />
       <Routes>
-        <Route path='/' element={<About/>}/>
+        <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/*' element={<NotFound/>}/>
         <Route path='/SignUp' element={<SignUp/>}/>
         <Route path='/LogInPage' element={<LoginPage/>}/>
+        <Route path='/My-account' element={<MyAccount/>}/>
       </Routes>
       <Footer />
   

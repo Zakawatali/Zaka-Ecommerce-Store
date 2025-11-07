@@ -2,7 +2,7 @@ import { Facebook,Instagram,Linkedin,Twitch,Send } from "lucide-react";
 const Footer = () => {
   return (
     <footer className="bg-black text-gray-50 py-6 mt-10 justify-center">
-     <div className=" flex flex-col p-7 justify-between md:flex-row space-y-6  mx-10">
+     <div className=" flex flex-col p-7 justify-between md:flex-row space-y-6 mx-2 sm:mx-4 md:mx-8">
         <div className="space-y-3">
             <h1 className="text-2xl font-medium">Exclusive</h1>
             <p>Subscribe</p>
