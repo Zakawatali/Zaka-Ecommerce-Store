@@ -17,7 +17,7 @@ const Contact = () => {
       </Breadcrumbs>
             </div> 
             {/* Home Navigation Bar start */}   
-            <div className="flex  justify-between flex-col md:flex-row mx-12 p-2   ">
+            <div className="flex  justify-between flex-col md:flex-row mx-1 sm:mx-5 md:mx-12 p-2   ">
               <div className="space-y-6">
                 <div className="p-2 space-y-3">
                   <div className="flex items-center gap-3 p-2 ">
